@@ -1,0 +1,160 @@
+{
+  "model": "qwen2.5:3b",
+  "tag": "baseline",
+  "trials": 3,
+  "total_questions": 16,
+  "total_runs": 48,
+  "pass@1": 62.5,
+  "pass@3": 62.5,
+  "pass^3": 62.5,
+  "total_tokens": 133428,
+  "total_cost_usd": 0.030768,
+  "avg_latency_seconds": 32.55,
+  "question_breakdown": {
+    "Q01": {
+      "trials": [
+        true,
+        true,
+        true
+      ],
+      "pass_rate": 100.0,
+      "perfect_3_of_3": true
+    },
+    "Q02": {
+      "trials": [
+        true,
+        true,
+        true
+      ],
+      "pass_rate": 100.0,
+      "perfect_3_of_3": true
+    },
+    "Q03": {
+      "trials": [
+        true,
+        true,
+        true
+      ],
+      "pass_rate": 100.0,
+      "perfect_3_of_3": true
+    },
+    "Q04": {
+      "trials": [
+        false,
+        false,
+        false
+      ],
+      "pass_rate": 0.0,
+      "perfect_3_of_3": false
+    },
+    "Q05": {
+      "trials": [
+        true,
+        true,
+        true
+      ],
+      "pass_rate": 100.0,
+      "perfect_3_of_3": true
+    },
+    "Q06": {
+      "trials": [
+        true,
+        true,
+        true
+      ],
+      "pass_rate": 100.0,
+      "perfect_3_of_3": true
+    },
+    "Q07": {
+      "trials": [
+        false,
+        false,
+        false
+      ],
+      "pass_rate": 0.0,
+      "perfect_3_of_3": false
+    },
+    "Q08": {
+      "trials": [
+        true,
+        true,
+        true
+      ],
+      "pass_rate": 100.0,
+      "perfect_3_of_3": true
+    },
+    "Q09": {
+      "trials": [
+        false,
+        false,
+        false
+      ],
+      "pass_rate": 0.0,
+      "perfect_3_of_3": false
+    },
+    "Q10": {
+      "trials": [
+        true,
+        true,
+        true
+      ],
+      "pass_rate": 100.0,
+      "perfect_3_of_3": true
+    },
+    "Q11": {
+      "trials": [
+        true,
+        true,
+        true
+      ],
+      "pass_rate": 100.0,
+      "perfect_3_of_3": true
+    },
+    "Q12": {
+      "trials": [
+        false,
+        false,
+        false
+      ],
+      "pass_rate": 0.0,
+      "perfect_3_of_3": false
+    },
+    "Q13": {
+      "trials": [
+        true,
+        true,
+        true
+      ],
+      "pass_rate": 100.0,
+      "perfect_3_of_3": true
+    },
+    "Q14": {
+      "trials": [
+        false,
+        false,
+        false
+      ],
+      "pass_rate": 0.0,
+      "perfect_3_of_3": false
+    },
+    "Q15": {
+      "trials": [
+        true,
+        true,
+        true
+      ],
+      "pass_rate": 100.0,
+      "perfect_3_of_3": true
+    },
+    "Q16": {
+      "trials": [
+        false,
+        false,
+        false
+      ],
+      "pass_rate": 0.0,
+      "perfect_3_of_3": false
+    }
+  },
+  "failures_count": 6
+}
